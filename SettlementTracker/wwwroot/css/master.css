@@ -1,0 +1,47 @@
+﻿.header-div
+{
+    height: 35px;
+    margin: 0px auto 0px auto;
+    padding: 4px 4px 4px 4px;
+}
+
+.body-div
+{
+    display: flex;
+    flex-direction: row;
+    height: calc(100% - 70px);
+    max-height: calc(100% - 70px);
+    max-width: 90%;
+    margin: auto;
+}
+
+.main-div
+{
+    background-color: #E6EEF8;
+    margin-right: 2px;
+    overflow: auto;
+    width: 800px;
+}
+
+.footer-div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 25px;
+    margin: auto;
+    color: #437587;
+    font-size: 10px;
+}
+
+.left {
+    text-align: left;
+    white-space: nowrap;
+}
+
+.right
+{
+    text-align: right;
+    white-space: nowrap;
+}

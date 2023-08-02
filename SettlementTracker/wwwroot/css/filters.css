@@ -1,0 +1,98 @@
+﻿.session-scope
+{
+    background-color: #E6EEF8;
+    color: #34618c;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 300px;
+    margin-left: 2px;
+    padding: 36px 4px 4px 4px;
+    overflow: hidden;
+}
+
+.session-scope > div
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 18px;
+}
+
+.session-scope label
+{
+    width: 80px;
+    flex-grow: 1;
+}
+
+.session-scope select:enabled
+{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.session-scope option
+{
+    color: #34618c;
+    flex-grow: 1;
+}
+
+#session-scope-div
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.merchant-radio-div
+{
+    margin-left: 90px;
+}
+
+.selector-row-div
+{
+    margin: 4px;
+}
+
+.selector-row-div input
+{
+    flex-grow: 1;
+}
+
+.selector-row-div button
+{
+    margin: 12px 0px 0px 0px;
+    color: #34618c;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.selector-label
+{
+    padding-right: 8px;
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.selector-item
+{
+    display: inline-block;
+}
+
+#apply-filter:disabled
+{
+    cursor: auto;
+}
+
+.remove
+{
+    cursor: pointer;
+    margin-left: 6px;
+    padding: 0 1px 1px 1px;
+    border: solid 1px #34618c;
+    font-family: Consolas, Garamond;
+}
