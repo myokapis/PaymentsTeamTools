@@ -47,7 +47,6 @@
 
         master.postForm(`${action}/TabContent`,
             function (data) {
-                console.debug(data);
                 selectedTopic.html(data.html);
                 if (successActions) successActions(selectedTab, selectedTopic)
             },
