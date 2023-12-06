@@ -1,5 +1,5 @@
 using Serilog;
-using SettlementTracker.Services;
+using BatchMonitoring.Services;
 using TemplateEngine.AspNetCore.Extensions;
 
 // setup a bootstrap logger to capture output until the real logger is configured
